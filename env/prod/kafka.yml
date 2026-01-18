@@ -1,1 +1,10 @@
+---
+- name: Kafka Deployment
+  hosts: localhost
+  connection: local
+
+  tasks:
+    - name: Show deployment message
+      debug:
+        msg: "Kafka deployment executed via Jenkins Shared Library"
 
